@@ -19,7 +19,7 @@ Node 20+, TypeScript, Fastify, PostgreSQL (`pg`), Zod, Vitest.
 
 ## Запуск
 
-Образ внешнего API лежит рядом с этой папкой — загрузите тот, что под вашу архитектуру (`uname -m`):
+Возьмите образ внешнего API из исходного пакета задания, положите рядом с папкой репозитория и загрузите вариант для вашей архитектуры (`uname -m`):
 
 ```bash
 docker load -i ../orders-mock-arm64.tar.gz   # arm64 / aarch64 (Mac на Apple Silicon)
